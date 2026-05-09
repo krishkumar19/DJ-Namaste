@@ -1,0 +1,1 @@
+SELECT * FROM kk.student_info;

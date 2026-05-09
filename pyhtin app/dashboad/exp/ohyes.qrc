@@ -1,0 +1,9 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>jpgtopngconverter-com.jpg</file>
+    <file>hyy.png</file>
+    <file>password_icon.png</file>
+    <file>username_icon.png</file>
+    <file>vector.png</file>
+  </qresource>
+</RCC>

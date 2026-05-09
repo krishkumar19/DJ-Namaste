@@ -1,0 +1,125 @@
+/* Obsidian Dark & Emerald Green Modern Styling */
+
+QWidget {
+    color: #e0e0e0;
+}
+
+QDialog, QMainWindow, #Form, #frame_2, #container {
+    background-color: #121212;
+}
+
+/* Secondary Panels / Cards */
+QFrame {
+    background-color: #1e1e1e; 
+    border-radius: 8px;
+}
+
+/* Primary Buttons */
+QPushButton {
+    background-color: #10b981; /* Emerald Green */
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+}
+
+QPushButton:hover {
+    background-color: #34d399; /* Lighter Emerald */
+}
+
+QPushButton:pressed {
+    background-color: #059669; /* Darker Emerald */
+}
+
+QPushButton:disabled {
+    background-color: #333333;
+    color: #777777;
+}
+
+/* Secondary / Sidebar Buttons */
+QPushButton#change_btn, #icon_only_widget QPushButton, #full_menu_widget QPushButton {
+    background-color: transparent;
+    color: #a0a0a0;
+    text-align: left;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+#icon_only_widget QPushButton:hover, #full_menu_widget QPushButton:hover {
+    background-color: #2a2a2a; /* Subtle hover */
+    color: #10b981; /* Emerald text on hover */
+}
+
+#icon_only_widget QPushButton:checked, #full_menu_widget QPushButton:checked {
+    color: #10b981;
+    font-weight: bold;
+}
+
+/* Inputs */
+QLineEdit, QComboBox, QTextEdit {
+    background-color: #242424;
+    border: 1px solid #333333;
+    border-radius: 6px;
+    padding: 8px 12px;
+    color: #ffffff;
+}
+
+QLineEdit:focus, QComboBox:focus, QTextEdit:focus {
+    border: 1px solid #10b981; /* Emerald Focus */
+    background-color: #2a2a2a;
+}
+
+/* Tables */
+QTableWidget {
+    background-color: #1e1e1e;
+    border: 1px solid #333333;
+    border-radius: 8px;
+    gridline-color: #2a2a2a;
+    selection-background-color: #10b981; /* Emerald Selection */
+    selection-color: #ffffff;
+}
+
+QTableWidget::item {
+    padding: 5px;
+}
+
+QTableWidget::item:hover {
+    background-color: #2a2a2a;
+}
+
+QHeaderView::section {
+    background-color: #242424;
+    color: #10b981; /* Emerald Headers */
+    padding: 8px;
+    border: none;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    font-weight: bold;
+}
+
+/* Progress Bar */
+QProgressBar {
+    border: 1px solid #333333;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #242424;
+    color: #ffffff;
+}
+
+QProgressBar::chunk {
+    background-color: #10b981; /* Emerald Progress */
+    border-radius: 5px;
+}
+
+/* Labels and Texts */
+QLabel {
+    background-color: transparent;
+}
+
+/* Search input specific */
+#search_input {
+    border-radius: 20px; /* rounded search bar */
+    padding-left: 15px;
+}

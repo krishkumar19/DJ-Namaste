@@ -1,0 +1,34 @@
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite database (contains real customer data — do NOT commit)
+database.db
+
+# Qt compiled resource files (large auto-generated, can be regenerated)
+mainfileeee_rc.py
+ohyes_rc.py
+resources_rc.py
+krish.py
+
+# IDE settings
+.idea/
+.vscode/
+*.suo
+*.user
+
+# OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp/unused folders
+useles/
+New folder/
+
+# Build artifacts
+*.spec
+dist/
+build/
