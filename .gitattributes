@@ -1,5 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
-*.html linguist-detectable=false
-*.ui linguist-detectable=false
-*.css linguist-detectable=false
+
+# Mark UI and Web files as 'generated' 
+# They stay in the stats, but Python will take the lead
+*.html linguist-generated=true
+*.ui linguist-generated=true
+*.css linguist-generated=true
+*.js linguist-generated=true
