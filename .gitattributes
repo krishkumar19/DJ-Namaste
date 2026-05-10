@@ -1,12 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# Treat web and UI files as 'vendored'
-# They will show up in the bar, but won't dominate the stats
-*.html linguist-vendored
-*.css linguist-vendored
-*.js linguist-vendored
-*.ui linguist-vendored
-
-# Force Python to be the main language
-*.py linguist-detectable=true
+*.html linguist-detectable=true
+*.css  linguist-detectable=true
+*.js   linguist-detectable=true
+*.py   linguist-detectable=true
+*.php  linguist-detectable=true
+*.dart linguist-detectable=true
