@@ -1,9 +1,12 @@
 # Auto detect text files and perform LF normalization
 * text=auto
 
-# Mark UI and Web files as 'generated' 
-# They stay in the stats, but Python will take the lead
-*.html linguist-generated=true
-*.ui linguist-generated=true
-*.css linguist-generated=true
-*.js linguist-generated=true
+# Force files to stay in the bar but treat them as 'Data' or 'Documentation'
+# This keeps them visible in the bar without over-counting them as code
+*.html linguist-detectable=true linguist-documentation=true
+*.css linguist-detectable=true linguist-documentation=true
+*.js linguist-detectable=true linguist-documentation=true
+*.ui linguist-detectable=true linguist-documentation=true
+
+# Forcefully prioritize Python
+*.py linguist-detectable=true
